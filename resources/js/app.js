@@ -6,6 +6,9 @@ Vue.use(plugin)
 import PerfectScrollbar from 'vue2-perfect-scrollbar'
 import 'vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css'
 
+import Footer from "./components/FooterComponent.vue";
+Vue.component('Footer', Footer);
+
 Vue.use(PerfectScrollbar)
 const el = document.getElementById('app')
 

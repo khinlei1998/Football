@@ -1,7 +1,13 @@
 <template>
-    <div class="container">
-        <div class="row">
-            <img :src="`./image/5.png`" class=" mr-3 w-100" alt="..." />
+    <div>
+        <div class="container">
+            <div class="row ">
+                <img
+                    :src="`./image/5.png`"
+                    class=" mr-3 w-100 cuimg"
+                    alt="..."
+                />
+            </div>
         </div>
 
         <Inertia-link href="/teamshow">
@@ -12,12 +18,13 @@
                 </div>
             </div>
         </Inertia-link>
+
+        <Footer></Footer>
     </div>
 </template>
 
 <script>
 export default {
-    name:'home'
+    name: "home"
 };
 </script>
-

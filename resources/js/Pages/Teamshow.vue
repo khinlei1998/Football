@@ -1,14 +1,22 @@
 <template>
     <div>
-        <img :src="`./image/5.png`" class=" mr-3 w-100" alt="..." />
+        <div class="container">
+            <div class="row">
+                <img
+                    :src="`./image/5.png`"
+                    class=" mr-3 w-100 cuimg"
+                    alt="..."
+                />
+            </div>
+        </div>
 
         <div class=" mt-3">
             <p class="text-white bg-info d-inline-block w-100 p-2 h5 ">
                 Choose the team you like
             </p>
-        </div>
+        </div> 
         <perfect-scrollbar>
-            <div class="container sm">
+            <div class="container ">
                 <div class="row mt-2">
                     <div class="card mt-2 ">
                         <div class="card-body">
@@ -161,6 +169,8 @@
                 >
             </div>
         </perfect-scrollbar>
+
+        <Footer></Footer>
     </div>
 </template>
 
@@ -168,8 +178,9 @@
 export default {
     name: "teamshow",
     methods: {
-        
+        hey() {
+            console.log("hh");
+        }
     }
 };
 </script>
-
